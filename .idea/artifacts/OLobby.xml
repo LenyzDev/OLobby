@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OLobby">
+    <output-path>$USER_HOME$/Downloads</output-path>
+    <root id="archive" name="OLobby.jar">
+      <element id="module-output" name="OLobby" />
+    </root>
+  </artifact>
+</component>

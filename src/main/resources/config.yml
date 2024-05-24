@@ -1,0 +1,46 @@
+lobby: "world,0,100,0,0,0"
+
+title: "&f#{position} in queue"
+subtitle: "&f"
+delay: 2
+
+items:
+  selector:
+    name: "&b&lSELECTOR"
+    material: "COMPASS"
+    lore:
+      - "&f"
+      - "&fClick to open the selector."
+      - "&f"
+  enable:
+    name: "&a&lENABLE PVP"
+    material: "INK_SACK"
+    data: 10
+    lore:
+      - "&f"
+      - "&fClick to enable your pvp."
+      - "&f"
+  disable:
+    name: "&4&lDISABLE PVP"
+    material: "INK_SACK"
+    data: 1
+    lore:
+      - "&f"
+      - "&fClick to disable your pvp."
+      - "&f"
+
+menu:
+  name: "Servers"
+  size: 3
+
+servers:
+  rankup: # name in bungeecord
+    name: "&b&lRANKUP"
+    material: "DIAMOND"
+    address: localhost
+    port: 3306
+    x: 4
+    y: 1
+    lore:
+      - "&f"
+      - "&fClick to join."

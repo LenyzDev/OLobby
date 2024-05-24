@@ -1,0 +1,6 @@
+name: OLobby
+version: '1.0-SNAPSHOT'
+main: me.lenyz.olobby.OLobby
+commands:
+  queue:
+    aliases: [ fila ]

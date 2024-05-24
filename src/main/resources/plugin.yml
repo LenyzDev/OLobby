@@ -1,0 +1,6 @@
+name: OLobby
+version: '${project.version}'
+main: me.lenyz.olobby.OLobby
+commands:
+  queue:
+    aliases: [ fila ]
